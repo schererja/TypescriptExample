@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+
+# Created by https://www.gitignore.io/api/node,visualstudiocode
+
+### Node ###
+>>>>>>> Initial Revision
 # Logs
 logs
 *.log
@@ -31,7 +38,11 @@ bower_components
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
+<<<<<<< HEAD
 
+=======
+build/
+>>>>>>> Initial Revision
 # Dependency directories
 node_modules/
 jspm_packages/
@@ -57,3 +68,16 @@ typings/
 # dotenv environment variables file
 .env
 
+<<<<<<< HEAD
+=======
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# End of https://www.gitignore.io/api/node,visualstudiocode
+>>>>>>> Initial Revision

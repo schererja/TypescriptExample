@@ -1,13 +1,24 @@
 {
   "name": "eden",
+<<<<<<< HEAD
   "version": "0.1.0",
   "description": "End to End",
   "main": "app.js",
   "scripts": {
+=======
+  "version": "1.0.0",
+  "description": "End to End Business Solution",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./build/server",
+    "lint": "gulp lint",
+    "build": "gulp clean build",
+>>>>>>> Initial Revision
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git+https://github.com/schererja/eden.git"
   },
   "author": "",
@@ -16,4 +27,48 @@
     "url": "https://github.com/schererja/eden/issues"
   },
   "homepage": "https://github.com/schererja/eden#readme"
+=======
+    "url": "http://www.github.com/schererja/eden.git"
+  },
+  "keywords": [
+    "End",
+    "to",
+    "End",
+    "Business",
+    "Solution",
+    "Small",
+    "Business",
+    "Home",
+    "Business"
+  ],
+  "engines": {
+    "node": "~8.0"
+  },
+  "author": "Jason Scherer",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.0.39",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "moment": "^2.19.1",
+    "mongoose": "^4.13.2",
+    "morgan": "^1.9.0",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^2.2.15",
+    "@types/mongoose": "^4.7.27",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-cli": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-ts": "^0.3.0",
+    "gulp-tslint": "^8.1.2",
+    "gulp-typescript": "^3.2.3",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  }
+>>>>>>> Initial Revision
 }
