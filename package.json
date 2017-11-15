@@ -1,11 +1,5 @@
 {
   "name": "eden",
-<<<<<<< HEAD
-  "version": "0.1.0",
-  "description": "End to End",
-  "main": "app.js",
-  "scripts": {
-=======
   "version": "1.0.0",
   "description": "End to End Business Solution",
   "main": "server.js",
@@ -13,21 +7,10 @@
     "start": "node ./build/server",
     "lint": "gulp lint",
     "build": "gulp clean build",
->>>>>>> Initial Revision
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-<<<<<<< HEAD
-    "url": "git+https://github.com/schererja/eden.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/schererja/eden/issues"
-  },
-  "homepage": "https://github.com/schererja/eden#readme"
-=======
     "url": "http://www.github.com/schererja/eden.git"
   },
   "keywords": [
@@ -70,5 +53,4 @@
     "tslint": "^5.8.0",
     "typescript": "^2.6.1"
   }
->>>>>>> Initial Revision
 }
